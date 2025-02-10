@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item"><a href="/login">Login</a></li>
+    <li class="breadcrumb-item"><a href="/register">Register</a></li>
+  </ol>
+</nav>
+<h1>Register a New User</h1>
+<p>Please enter your information below to create a new account.</p>
+
+<form id="add-user-form-ajax">
+    <label for="input-email">Email: </label>
+    <input type="text" name="input-email" id="input-email" required>
+    
+    <label for="input-password">Password: </label>
+    <input type="password" name="input-password" id="input-password" required>
+
+    <input type="submit" value="Register">
+</form>
+
+<div id="register-message"></div>
+
+<!-- Link to the external JavaScript file -->
+<script src="script.js"></script>
+
+</body>
+</html>
